@@ -1,0 +1,151 @@
+
+.main {
+    padding: 30px;
+
+    & h1 {
+        display: flex;
+        justify-content: center;
+        color: #00d3ef !important;
+       
+    }
+
+}
+.titreProjets {
+    color: white !important;
+    font-size: 16px;
+    padding-bottom: 10px;
+    box-shadow: 0 20px 40px black (0, 0, 0, 0.7);
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 40px;
+
+}
+
+
+@media screen and (max-width: 750px) { 
+    .projets {
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    transform: translateY(0px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+   
+    
+
+}
+
+.dropdown {
+    border-radius: 20px;
+    width:100%;
+    padding: 8px;
+    max-width: 160px;
+    font-size: 18px;
+    display: none;
+    
+    
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+
+img:hover + .description {
+   visibility: visible;
+    
+
+    
+}
+
+.img:hover {
+
+    transform: translateY(0px);
+    
+    transform: scale(1.4);
+
+}
+
+.description {
+    
+    border-radius: 12px;
+    padding: 6px;
+    color: white;
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-200px);
+    transition: .8s;
+    opacity: 80%;
+    padding-top: 0px;
+    background-color: #192542;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    opacity: 0%;
+    
+
+    & button {
+        border-radius: 16px;
+        width: 60%;
+        background-color:#00d3ef;
+        color: white;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+   
+}
+
+.description:hover {
+   
+    opacity: 70%;
+}
+ 
+    
+
+.description::after {
+    content: "";
+    position: absolute;
+    
+        width: 30px;
+    
+        height: 4px;
+    
+        bottom: 15px;
+    
+        left: 50%;
+    
+        left: 50%;
+    
+        transform: translateX(-50%);
+    
+        background: #2c73df;
+
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}

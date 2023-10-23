@@ -3,20 +3,36 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "logo.png",
+      "sizes": "120x120",
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "sophiebluel.png",
+      "sizes": "120x120",
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
+      "src": "ohmyfood.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "120x120"
+    },
+    {
+      "src": "argentbank.webp",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "bookie.webp",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+     {
+      "src": "seo.webp",
+      "type": "image/png",
+      "sizes": "120x120"
     }
+
   ],
   "start_url": ".",
   "display": "standalone",

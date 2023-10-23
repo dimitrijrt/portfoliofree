@@ -1,0 +1,163 @@
+.cv {
+    
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width:35%;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #00d3ef;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+
+
+.cv:hover {
+    opacity: 90%;
+    box-shadow: 0 3px 10px white;
+}
+
+h1 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+.cardcv {
+    
+    color:#00d3ef;
+    text-align: center;
+    background-color: #192542;
+    width: 40%;
+    margin: auto;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    min-width:300px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+
+    & h3 {
+        font-size: 50px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    & h4 {
+        font-size: 30px;
+        color: white;
+        
+        
+    }
+
+    & h4:hover {
+        transform: scale(1.4);
+            transition-duration: 0.4s;
+    }
+
+    & p {
+        font-size: 20px;
+    }
+
+    & p:hover {
+        transform: scale(1.4);
+            transition-duration: 0.4s;
+    }
+}
+
+
+
+
+
+.cardme {
+           margin-top: 80px;
+            border-radius: 25px;
+            grid-area: 2;
+           
+            min-width: 300px;
+            padding: 1rem 3rem;
+            width:50%;
+            z-index: 2;
+            background-color: #192542;
+            margin-right: auto;
+            margin-left: auto;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4)
+            
+}
+
+.cardme:hover  {
+    box-shadow: 0px 3px 8px #00d3ef;
+}
+
+.lang {
+    color:#00d3ef;
+    grid-template-columns: repeat(2, 2fr);
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    gap: 60px
+    
+
+    
+}
+
+.all {
+    margin:auto
+}
+
+h2 {
+    color:white;
+}
+
+ul {
+    font-size: 40px;
+    list-style-type: none;
+    
+}
+
+li {
+    margin: 16px;
+    margin-top: 0px;
+    margin-right: 40px;
+    
+
+}
+
+li:hover {
+    transform: scale(1.4);
+    transition-duration: 0.4s;
+
+}
+
+.svg {
+    color:#00d3ef;
+}
+
+
+.icon {
+    margin-right: 8px;
+    font-size:28px;
+}
+
+.dev {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 430px) {
+
+    .cardcv , .cardme {
+        min-width: 140px;
+    }
+}
