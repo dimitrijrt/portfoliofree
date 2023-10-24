@@ -30,35 +30,7 @@
     
 }
 
-@media screen and (max-width: 800px) {
 
-.projets {
-    grid-template-columns: repeat(2, 2fr);
-}
-
-}
-@media screen and (max-width: 750px) { 
-    .projets {
-        grid-template-columns: repeat(2, 2fr);
-    }
-
-    .titreProjets {
-        font-size: 16px;
-    }
-
-    .description {
-    max-height: 200px;
-    }
-
-        .titreProjets {
-           margin-top: 40px;
-            
-        }
-    .description  {
-        font-size: 15px;
-        min-height: 200px;
-    }
-}
 
 img {
     width: 100%;
@@ -107,14 +79,14 @@ img:hover + .description {
     position: relative;
     display: flex;
     max-width: 400px;
-    max-height: 200px;
+    box-sizing: border-box;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    
+   min-height: 200px;
     margin-top: -204px;
-    
+    max-width: 400px;
     padding-top: 0px;
     background-color: #192542;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
@@ -150,4 +122,40 @@ img:hover + .description {
     display: flex;
     flex-direction: column;
     background-color: grey;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .projets {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .projets {
+        grid-template-columns: repeat(2, 2fr);
+    }
+
+    .titreProjets {
+        font-size: 16px;
+    }
+
+
+
+    .titreProjets {
+        margin-top: 40px;
+
+    }
+
+    .description {
+        font-size: 13px;
+
+
+        & button {
+            width: 40%;
+            font-size: 13px;
+        }
+    }
 }
