@@ -17,9 +17,17 @@ function Presentation() {
     
   
   return (
+    
     <div className='intro'>
+      <section className='animation'>
+                  <div class="first"><div>Carlos Córdova</div></div>
+              <div class="second"><div>Web Developer</div></div>
+              <div class="third"><div>Systems Engineer</div></div>
+    </section>
         <div className='cardme'>
             <h1 className='dev'>Développeur front-end</h1>
+            
+          
             <div className='all'>
                <ul className='lang'>
               <div>
@@ -41,21 +49,33 @@ function Presentation() {
            
         </div>
         <Home/>
+        <div className='parcours'>
+                <h3>Parcours</h3>
+              </div> 
         <div className='cardcv' id="parcours">
         
-          <h3>Mon parcours</h3>
-          <h4>2022-2023</h4>
-          <p>- Formation Développeur front-end Openclassroom</p>
-          <p>-Hack the box certification pentester junior</p>
-          <h4>2021-2022</h4>
+         
+          <div className='year'>
+            
+            <h4>2022-2023</h4>
+            <p>- Formation Développeur front-end Openclassroom</p>
+            <p>-Hack the box certification pentester junior</p>
+          </div>
+          <div className='year'>
+             <h4>2021-2022</h4>
            <p>- BTS SIO 2ème année</p>
            <p>- Stage analyse réseau</p>
+          </div>
+          <div className='year'>
             <h4>2020-2021</h4>
              <p>- BTS SIO 1ère année </p>
              <p>- Stage développement web</p>
              <p>- Service civique</p>
+          </div>
+          <div className='year'>
               <h4>2019</h4>
               <p>- Bac s / sportif de haut niveau</p>
+          </div>
         
         </div>
     </div>

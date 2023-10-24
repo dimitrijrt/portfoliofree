@@ -1,6 +1,6 @@
 
 .main {
-    padding: 30px;
+    padding: 30px 50px 30px 50px;
 
     & h1 {
         display: flex;
@@ -12,22 +12,51 @@
 }
 .titreProjets {
     color: white !important;
-    font-size: 16px;
+    font-size: 22px;
     padding-bottom: 10px;
     box-shadow: 0 20px 40px black (0, 0, 0, 0.7);
+    padding-top: 40px;
 }
 
 .projets {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 40px;
+    gap:40px;
+  
 
 }
 
+.projetTitle {
+    
+}
 
+@media screen and (max-width: 800px) {
+
+.projets {
+    grid-template-columns: repeat(2, 2fr);
+}
+
+}
 @media screen and (max-width: 750px) { 
     .projets {
         grid-template-columns: repeat(2, 2fr);
+    }
+
+    .titreProjets {
+        font-size: 16px;
+    }
+
+    .description {
+    max-height: 200px;
+    }
+
+        .titreProjets {
+           margin-top: 40px;
+            
+        }
+    .description  {
+        font-size: 15px;
+        min-height: 200px;
     }
 }
 
@@ -38,7 +67,6 @@ img {
     max-width: 400px;
     object-fit: cover;
     border-radius: 12px;
-    transform: translateY(0px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
     cursor: pointer;
    
@@ -64,19 +92,12 @@ img {
 
 
 img:hover + .description {
-   visibility: visible;
+    visibility: visible;
     
 
     
 }
 
-.img:hover {
-
-    transform: translateY(0px);
-    
-    transform: scale(1.4);
-
-}
 
 .description {
     
@@ -86,18 +107,21 @@ img:hover + .description {
     position: relative;
     display: flex;
     max-width: 400px;
+    max-height: 200px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
-    transform: translateY(-200px);
-    transition: .8s;
-    opacity: 80%;
+    
+    margin-top: -204px;
+    
     padding-top: 0px;
     background-color: #192542;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    opacity: 0%;
+   visibility: hidden;
+    z-index: 2;
+    opacity: 90%;
+
     
 
     & button {
@@ -115,33 +139,11 @@ img:hover + .description {
    
 }
 
-.description:hover {
-   
-    opacity: 70%;
-}
+
  
     
 
-.description::after {
-    content: "";
-    position: absolute;
-    
-        width: 30px;
-    
-        height: 4px;
-    
-        bottom: 15px;
-    
-        left: 50%;
-    
-        left: 50%;
-    
-        transform: translateX(-50%);
-    
-        background: #2c73df;
 
-
-}
 
 
 .menu {

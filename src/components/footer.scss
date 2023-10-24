@@ -8,6 +8,20 @@
    
 }
 
-.cv {
-    transform: scale(1);
+.cv:hover {
+    transform: scale(1.1);
+}
+
+.end {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+
+    .cv {
+        font-size: 12px;
+    }
+    
+
 }

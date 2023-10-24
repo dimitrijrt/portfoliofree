@@ -33,12 +33,15 @@ function Home() {
             {projets.map((projet, index) => (
                 <div className='projetTile'> 
                     <h2 className='titreProjets'>{projet.title}</h2>
-                    <img className='images' src={projet.pictures[0]} alt="projets images"></img>
+                      <img className='images' src={projet.pictures[0]} alt="projets images"></img>
                         <div className='description'>
                             <p>{projet.description}</p>
                             <button ><DiGithubBadge size="26px"/>Lien github</button>
                         </div> 
-                </div>
+                    </div>
+                    
+                    
+
             ))}
        </div>
        </div>

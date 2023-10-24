@@ -13,6 +13,8 @@ function Footer() {
     
     <div className='Footer'>
        <span className='cv' id="contact"><FiMail className='icon'/> dimitrijacquart@gmail.com</span>
+       <p className='end'>© 2023 Dimitri JACQUART, Tous droits réservés.
+						</p>
     
     </div>
     

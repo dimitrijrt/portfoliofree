@@ -10,19 +10,17 @@ function Header() {
   
   return (
     
-    <div className='header'>
+     <div className='header'>
       <nav className='liens'>
         <img className="logo" src='logo.png'/>
          <span className='styledlink' ><a href="#parcours">Parcours</a></span>
         <span  ><a href="#skills">skills</a></span>
         <span><a href='#contact'>Contact</a></span>
     </nav>
+    <div className='fadev'>
+       <h1 ><FaDev />My Portfolio</h1>
+    </div>
     
-          <h1 ><FaDev className='fadev'/>My Portfolio</h1>
-       
-   
-           
-        
     
     </div>
     
