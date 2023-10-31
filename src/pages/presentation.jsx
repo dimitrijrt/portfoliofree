@@ -6,9 +6,8 @@ import {GoMail} from "react-icons/go";
 import {SiRedux} from "react-icons";
 import { FiMail } from "react-icons/fi";
 import { AiFillFile } from "react-icons/ai";
-
-
-
+import { MdAccountCircle } from "react-icons/md";
+import { GrAppsRounded} from "react-icons/gr";
 
 
 
@@ -19,13 +18,64 @@ function Presentation() {
   return (
     
     <div className='intro'>
-      <section className='animation'>
-                  <div class="first"><div>Carlos Córdova</div></div>
-              <div class="second"><div>Web Developer</div></div>
-              <div class="third"><div>Systems Engineer</div></div>
-    </section>
+      <div class="container">
+  <p>Hello 👋 I'm</p>
+  <section class="animation">
+    <div class="first"><div>Dimitri</div></div>
+    <div class="second"><div>Web Dev</div></div>
+    <div class="third"><div>Front-end Dev </div></div>
+  </section>
+</div>
+    
+
+
+
+
+<div class="about">
+   <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="_blank">
+      <span class="icon"></span>
+   </a>
+   <a class="bg_links logo"></a>
+</div>
+
+   
+   <div class="content">
+      <div class="card">
+            <div class="icon"><i class="material-icons md-36"></i><MdAccountCircle/></div>
+            <p class="title">Profile</p>
+            <p class="text">Click to see or edit your profile page.</p>
+      </div>
+   
+      <div class="card">
+         
+            <div class="icon"><i class="material-icons md-36"><GrAppsRounded/></i></div>
+            <p class="title">Projets</p>
+            <p class="text">Check all my projects.</p>
+         
+      </div>
+     
+      <div class="card">
+         
+            <div class="icon"><i class="material-icons md-36"><FiMail/></i></div>
+            <p class="title">Contacts</p>
+            <p class="text">Contact me.</p>
+         
+      </div>
+   
+   </div>
+
+
+
+
+
         <div className='cardme'>
-            <h1 className='dev'>Développeur front-end</h1>
+           
             
           
             <div className='all'>

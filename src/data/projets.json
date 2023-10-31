@@ -86,7 +86,7 @@
 	},
 	{
 		"id": "b9123946",
-		"title": "Débugage du site d'une agence d'événementiel",
+		"title": "Débugage du site d'une agence d'événementiel en React",
 		"category": "react",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
@@ -99,21 +99,7 @@
 		},
 		"github": "https://dimitrijrt.github.io/Projet9SEO/"
 	},
-	{
-		"id": "b9123946",
-		"title": "Premier projet Javascript",
-		"category": "react",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-		"pictures": [
-			"jsfirst.webp"
-		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"host": {
-			"name": "Della Case"
-			
-		},
-		"github": "https://dimitrijrt.github.io/Projet9SEO/"
-	},
+	
 	{
 		"id": "b9123946",
 		"title": "Planification du développement d'un site client",
@@ -123,6 +109,21 @@
 			"gestion.webp"
 		],
 		"description": "développer un système de veille ,en parallèle, déterminer les spécifications techniques du site Menu Maker by Qwenta,organiser la gestion de projet du développement du site.",
+		"host": {
+			"name": "Della Case"
+			
+		},
+		"github": "https://dimitrijrt.github.io/Projet9SEO/"
+	},
+	{
+		"id": "b9123946",
+		"title": "Premierprojet Javascript",
+		"category": "react",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"pictures": [
+			"jsfirst.webp"
+		],
+		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
 		"host": {
 			"name": "Della Case"
 			
