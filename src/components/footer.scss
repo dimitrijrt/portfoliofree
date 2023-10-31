@@ -12,6 +12,10 @@
     transform: scale(1.1);
 }
 
+.cv {
+    gap:10px;
+}
+
 .end {
     text-align: center;
     color: white;
@@ -24,4 +28,11 @@
     }
     
 
+}
+
+@media screen and (max-width: 430px) {
+
+    .cv {
+            font-size: 8px;
+        }
 }

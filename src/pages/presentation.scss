@@ -217,12 +217,14 @@ p {
 
 .container {
     color: #e5e5e5;
-    font-size: 2.26rem;
+    font-size: 2rem;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .animation {
@@ -370,25 +372,18 @@ body {
         &.portfolio {
             transition: all 0.8s ease;
 
-            .icon {
-                background-image: url(https://rafaelalucas91.github.io/assets/codepen/link.svg);
-            }
+           
         }
 
         &.dribbble {
             transition: all 0.3s ease;
 
-            .icon {
-                background-image: url(https://rafaelalucas91.github.io/assets/codepen/dribbble.svg);
-            }
+           
         }
 
         &.linkedin {
             transition: all 0.8s ease;
 
-            .icon {
-                background-image: url(https://rafaelalucas91.github.io/assets/codepen/linkedin.svg);
-            }
         }
     }
 
@@ -488,7 +483,7 @@ body {
 
 @media screen and (max-width: 767px) {
     .content {
-        padding-top: 300px;
+        padding-top: 50px;
         flex-direction: column;
     }
 }

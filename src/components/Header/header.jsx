@@ -12,15 +12,9 @@ function Header() {
     
      <div className='header'>
       <nav className='liens'>
-        <img className="logo" src='logo.png'/>
-         <span className='styledlink' ><a href="#parcours">Parcours</a></span>
-        <span  ><a href="#skills">skills</a></span>
-        <span><a href='#contact'>Contact</a></span>
+        <h1 className='title' ><FaDev />My Portfolio</h1>
 
     </nav>
-    <div className='fadev'>
-       <h1 ><FaDev />My Portfolio</h1>
-    </div>
     
     
     </div>

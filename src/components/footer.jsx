@@ -12,7 +12,7 @@ function Footer() {
   return (
     
     <div className='Footer'>
-       <span className='cv' id="contact"><FiMail className='icons'/> dimitrijacquart@gmail.com</span>
+       <a href="mailto:dimitrijacquart@gmail.com"><span className='cv' id="contact"><FiMail className='icons'/> dimitrijacquart@gmail.com</span></a>
        <p className='end'>© 2023 Dimitri JACQUART, Tous droits réservés.
 						</p>
     
@@ -25,7 +25,7 @@ function Footer() {
       
    
     
-   
+  
    
   )
 }
