@@ -32,30 +32,42 @@ h1 {
 }
 
 .year {
-    background-color: #192542;
+    
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    padding : 0px 15px 0px 15px;
+    
+    margin: auto;
     flex:1;
+    display: flex;
+    gap: 40px;
+
+    & h4 {
+        background-color: #00d3ef;
+        margin: auto;
+        border-radius: 6px;
+        padding: 8px;
+        
+    }
+    
 }
 
-.year:hover {
-    box-shadow: 0px 3px 8px #00d3ef;
-}
+
 
 .cardcv {
     
     color:#00d3ef;
-    text-align: center;
-   
+    border-color: #00d3ef;
+    font-size: 2px;
     width:80%;
     margin: auto;
     border-radius: 20px;
     padding-bottom: 10px;
     display: flex;
+    flex-direction: column;
+    flex:1;
     margin-bottom: 50px;
     margin-top: 0px;
     justify-content: center;
+    
     gap: 40px;
 
 
@@ -72,28 +84,39 @@ h1 {
         
     }
 
-    & h4:hover {
-        transform: scale(1.2);
-            transition-duration: 0.4s;
-    }
+   
+    
 
     & p {
-        font-size: 20px;
+        font-size: 12px;
     }
 
-    & p:hover {
-        transform: scale(1.1);
-            transition-duration: 0.4s;
-    }
+  
 
    
 }
 
+.txt {
+    
+    
+    padding: 4px;
+    border-radius: 10px;
+    
+    border: 2px solid;
+    padding-left: 20px;
+    width:500px;
+    
+    
+}
+
 .parcours h3 {
     font-size: 40px;
-        color: white;
+        color:#00d3ef;
         text-align: center;
-        padding-top: 60px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        
+       
         
 }
 
@@ -103,7 +126,7 @@ h1 {
 
 
 .cardme {
-           margin-top: 100px;
+           margin-top: 90px;
             border-radius: 25px;
             grid-area: 2;
            
@@ -114,7 +137,8 @@ h1 {
             background-color: #192542;
             margin-right: auto;
             margin-left: auto;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4)
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            
             
 }
 
@@ -129,7 +153,7 @@ h1 {
     justify-content: center;
     
     margin: auto;
-    gap: 60px
+   
     
 
     
@@ -182,11 +206,26 @@ li:hover {
 }
 
 
+
+
 @media screen and (max-width: 750px) {
-    .cardcv {
-            flex-direction: column;
-            flex:1;
+   
+
+    .container {
+        flex-direction: column;
+    }
+
+
+    .year {
+        width: 350px;
+        gap:15px;
+
+
+        & h4 {
+           width: 30px;
+           
         }
+    }
     }
 
 @media screen and (max-width: 430px) {
@@ -196,13 +235,53 @@ li:hover {
 
 
         & .lang {
-            font-size: 25px;
+            font-size: 21px;
         }
 
+      
+
+    }
+
+    .year {
+        width:300px;
     }
 
     
 }
+
+@media screen and (max-width: 650px) {
+
+    .redux { 
+       margin-top: 10px;
+
+}
+
+.react {
+    margin-top: 20px;
+}
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .year {
+
+        & h4 {
+            font-size: 12px;
+        }
+    }
+
+        
+    
+}
+
+
 
 // effect
 
@@ -303,7 +382,7 @@ p {
 // card effect 
 
 body {
-    width: 100vw;
+    
     
     margin: 0;
     font-family: helvetica;
@@ -468,12 +547,21 @@ body {
     .wrapper {
         height: 700px;
     }
+        .content {
+            padding-top: 50px;
+           
+        }
+
+  
+
+    .lang {
+        font-size: 30px;
+    }
 }
 
 .content {
     max-width: 1024px;
     width: 100%;
-    padding: 0 4%;
     padding-top:20px;
     margin: 0 auto;
     display: flex;
@@ -481,12 +569,7 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-    .content {
-        padding-top: 50px;
-        flex-direction: column;
-    }
-}
+
 
 .card {
     width: 100%;
@@ -567,7 +650,10 @@ body {
 }
 
 .card:hover {
-    height: 270px;
+    padding: 10px;
+    margin-top: -10px;
+
+     
 }
 
 .card:hover .info {
