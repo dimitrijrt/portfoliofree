@@ -47,7 +47,7 @@ function Presentation() {
         <a href="#parcours">
            <div class="icon"><i class="material-icons md-36"></i><MdAccountCircle/></div>
             <p class="title">Profile</p>
-            <p class="text">Click to see or edit your profile page.</p>
+            <p class="text">Click to see my profile.</p>
         </a>
       </div>
    

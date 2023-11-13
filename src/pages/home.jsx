@@ -17,17 +17,6 @@ function Home() {
     
     <div className="main">
        <h1 id="skills">Mes Projets</h1>
-      <Dropdown onClick={() => setToggle(!toggle)}>
-      <Dropdown.Toggle className='dropdown'>
-        Catégories
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu className='menu'>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
        <div className='grid'>
        <div className='projets'>
             {projets.map((projet, index) => (
@@ -36,7 +25,10 @@ function Home() {
                       <img className='images' src={projet.pictures[0]} alt="projets images"></img>
                         <div className='description'>
                             <p>{projet.description}</p>
+                            <a href={projet.github}>
                             <button ><DiGithubBadge size="26px"/>Lien github</button>
+                            </a>
+                           
                         </div> 
                     </div>
                     
