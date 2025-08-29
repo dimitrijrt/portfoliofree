@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 60px;
+    margin-left: 40px;
 
 
 }
@@ -66,6 +67,8 @@ img:hover+.description,
     transition: 1s ease-in-out;
 }
 
+
+
 .description {
     border-radius: 12px;
     padding: 6px;
@@ -87,6 +90,7 @@ img:hover+.description,
     visibility: hidden;
     z-index: 2;
     transition: 1s ease-in-out;
+   
 
 
 
@@ -95,19 +99,28 @@ img:hover+.description,
         width: 60%;
         background-color: #00d3ef;
         color: white;
-        font-size: 16px;
+        font-size: 18px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        font-weight: 650;
+        text-decoration: none !important;
+        cursor: pointer;
+        
 
     }
 
 
 }
 
+a {
+    text-decoration: none;
+   
+}
+
 
 .menu {
-    display: flex;
     flex-direction: column;
     background-color: grey;
 }
@@ -142,7 +155,8 @@ img:hover+.description,
 
         & button {
             width: 40%;
-            font-size: 13px;
+            font-size: 16px;
+            cursor: pointer;
         }
     }
 }

@@ -16,7 +16,7 @@ function Home() {
     
     
     <div className="main">
-       <h1 id="skills">Mes Projets</h1>
+       <h1 id="skills">Réalisations :</h1>
        <div className='grid'>
        <div className='projets'>
             {projets.map((projet, index) => (
@@ -25,8 +25,8 @@ function Home() {
                       <img className='images' src={projet.pictures[0]} alt="projets images"></img>
                         <div className='description'>
                             <p>{projet.description}</p>
-                            <a href={projet.github}>
-                            <button ><DiGithubBadge size="26px"/>Lien github</button>
+                            <a href={projet.github}  target="_blank" >
+                            <button >Voir le site</button>
                             </a>
                            
                         </div> 

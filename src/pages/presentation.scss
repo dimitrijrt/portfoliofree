@@ -16,6 +16,16 @@
     
 }
 
+.technos {
+    color: #00d3ef !important;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.do {
+    text-align: center;
+    color: white;
+}
 
 
 .cv:hover {
@@ -48,6 +58,15 @@ h1 {
         
     }
     
+}
+
+
+.titledev {
+    background-color: #00d3ef;
+    margin: auto;
+    border-radius: 6px;
+    padding: 8px;
+
 }
 
 
@@ -88,7 +107,7 @@ h1 {
     
 
     & p {
-        font-size: 12px;
+        font-size: 20px;
     }
 
   
@@ -325,14 +344,17 @@ p {
 
 .first div {
     background-color: blue;
+    font-weight: 700;
 }
 
 .second div {
     background-color: #00d3ef;
+    font-weight: 700;
 }
 
 .third div {
     background-color: #CD921E;
+    font-weight: 700;
 }
 
 @keyframes text-animation {

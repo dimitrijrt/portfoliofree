@@ -1,24 +1,40 @@
 [
 	{
+		"id": "b9123946",
+		"title": " Création du Site ecommerce relaxationstore",
+		"category": "react",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"pictures": [
+			"gestion.webp"
+		],
+		"description": "site e-commerce complet avec WordPress et WooCommerce. Il intègre des fiches produits détaillées, une gestion de panier, un système de paiement sécurisé, et des fonctionnalités classiques d’une boutique en ligne professionnelle. L’objectif : proposer une expérience utilisateur fluide, intuitive et réaliste, comme dans une vraie boutique.",
+		"host": {
+			"name": "Della Case"
+			
+		},
+		"github": "https://dimitrijrt.github.io/Projet9SEO/"
+	},
+	{
 		"id": "c67ab8a7",
-		"title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"title": "Site vitrine de l'Agence web Dev Corp",
 		"cover": "logo192.png",
 		"pictures": [
             "bookie.webp"
 			
 		],
-		"description": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS. ",
+		"description": "site moderne et professionnel pour une agence web, présentant clairement leurs services digitaux, leurs réalisations, et intégrant un formulaire de contact efficace. ",
 		"github": "https://github.com/dimitrijrt/projet4.1",
 		"category": "html & css"
 	},
+	
     {
 		"id": "b9123946",
-		"title": "Amélioration l'interface d'un site mobile avec des animations CSS",
+		"title": " Site vitrine moderne responsive  pour restaurant",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
-			"ohmyfood.png"
+			"food.webp"
 		],
-		"description": "Votre mission est de développer un site “mobile first” pour mobile, tablette et desktop qui répertorie les menus de restaurants gastronomiques.",
+		"description": "Développement d'un site “mobile first” pour mobile, tablette et desktop qui répertorie les menus de restaurants gastronomiques.",
 		"host": {
 			"name": "Della Case",
 			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
@@ -27,9 +43,66 @@
 		"category": "html & css"
 
 	},
+	{
+		"id": "c67ab8a7",
+		"title": "Création de site pour artiste peintre",
+		
+		"cover": "logo192.png",
+		"pictures": [
+            "cjtab.webp"
+			
+		],
+		"description": "site vitrine moderne pour un artiste peintre, mettant en valeur ses œuvres à travers une galerie visuelle immersive.Fiches d’œuvres détaillées, et une mise en page élégante pour refléter l’univers artistique de l’auteur.",
+		"category": "html & css"
+	},
+	{
+		"id": "b9123946",
+		"title": "Amélioration du site d'une imprimerie avec javascript",
+		"category": "react",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"pictures": [
+			"jsfirst.webp"
+		],
+		"description": "Site professionnel pour imprimerie avec présentation des services, devis en ligne et interface moderne.",
+		"host": {
+			"name": "Della Case"
+			
+		},
+		"github": "https://dimitrijrt.github.io/js-projet/"
+	},
+	{
+		"id": "b9123946",
+		"title": "Débugage du site d'une agence d'événementiel en React",
+		"category": "react",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"pictures": [
+			"debug.webp"
+		],
+		"description": " site moderne et dynamique pour une agence événementielle, mettant en avant leurs services complets, une galerie photo immersive des événements réalisés, ainsi qu’un formulaire de contact intuitif.",
+		"host": {
+			"name": "Della Case"
+			
+		},
+		"github": "https://dimitrijrt.github.io/Projet10DEBUG/"
+	},
+	{
+		"id": "b9123946",
+		"title": "SEO Optimisation du référencement d'un site de photographe",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"pictures": [
+			"seo.webp"
+		],
+		"description": "optimisation SEO complète d’un site de photographe afin d’améliorer sa visibilité sur les moteurs de recherche. Cela inclut l’audit technique, l’optimisation des balises, la structuration du contenu, l’amélioration de la vitesse de chargement, et la mise en place de bonnes pratiques SEO on-page pour attirer plus de visiteurs qualifiés et accroître la notoriété en ligne. ",
+		"host": {
+			"name": "Della Case",
+			"picture": "seo.webp"
+		},
+		"github": "https://dimitrijrt.github.io/Projet9SEO/#gallery"
+	},
+	
     {
 		"id": "b9123946",
-		"title": "Implémentez le front-end d'une application bancaire avec React",
+		"title": "Implémentation du front-end d'une application bancaire avec React",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
 		"pictures": [
 			"argentbank.webp"
@@ -41,6 +114,19 @@
 		},
 		"github": "https://github.com/dimitrijrt/ArgentBank-website"
 	},
+	{
+		"id": "c67ab8a7",
+		"title": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"cover": "logo192.png",
+		"pictures": [
+            "bookie.webp"
+			
+		],
+		"description": "page d’accueil attractive et immersive pour une agence de voyage, mettant en avant des offres de destinations populaires, des visuels captivants, et un moteur de recherche intuitif. Le design responsive assure une expérience optimale sur tous les appareils, tandis que l’ergonomie facilite la découverte rapide des services et encourage la prise de contact. ",
+		"github": "https://dimitrijrt.github.io/landingbooki/",
+		"category": "html & css"
+	},
+
     {
 		"id": "b9123946",
 		"title": "Création d'une page web dynamique d'une architecte avec JavaScript",
@@ -55,20 +141,7 @@
 		},
 		"github": "https://github.com/dimitrijrt/sitejs2.1pro"
 	},
-    {
-		"id": "b9123946",
-		"title": "SEO Optimisez le référencement d'un site de photographe",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-		"pictures": [
-			"seo.webp"
-		],
-		"description": "Vous êtes développeur freelance et vous décidez de proposer vos services d’optimisation SEO à de nouveaux clients. Pour ce faire, vous avez analysé plusieurs sites internet. Vous avez ensuite pris contact avec les administrateurs des sites qui peuvent être optimisés pour leur proposer vos services. ",
-		"host": {
-			"name": "Della Case",
-			"picture": "seo.webp"
-		},
-		"github": "https://dimitrijrt.github.io/Projet9SEO/"
-	},
+   
       {
 		"id": "b9123946",
 		"title": "Création d'une application web de location immobilière avec React",
@@ -83,52 +156,10 @@
 			"picture": "kasa.webp"
 		},
 		"github": "https://github.com/dimitrijrt/Projet7React"
-	},
-	{
-		"id": "b9123946",
-		"title": "Débugage du site d'une agence d'événementiel en React",
-		"category": "react",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-		"pictures": [
-			"debug.webp"
-		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"host": {
-			"name": "Della Case"
-			
-		},
-		"github": "https://github.com/dimitrijrt/Projet10DEBUG"
-	},
-	
-	{
-		"id": "b9123946",
-		"title": "Planification du développement d'un site client de restauration ",
-		"category": "react",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-		"pictures": [
-			"gestion.webp"
-		],
-		"description": "développer un système de veille ,en parallèle, déterminer les spécifications techniques du site Menu Maker by Qwenta,organiser la gestion de projet du développement du site.",
-		"host": {
-			"name": "Della Case"
-			
-		},
-		"github": "https://dimitrijrt.github.io/Projet9SEO/"
-	},
-	{
-		"id": "b9123946",
-		"title": "Premier projet Javascript pour améliorer le site d'une imprimerie",
-		"category": "react",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-		"pictures": [
-			"jsfirst.webp"
-		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
-		"host": {
-			"name": "Della Case"
-			
-		},
-		"github": "https://github.com/dimitrijrt/jd-projet-4"
 	}
-
+	
+	
+	
+	
+	
 ]

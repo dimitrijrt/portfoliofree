@@ -1,0 +1,77 @@
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+
+.mainserv {
+    
+        
+    padding: 2rem;
+}
+
+.grid-container {
+    width: min(75rem, 100%);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+   
+}
+
+.txtserv {
+    text-align: center;
+    color: white !important;
+    font-size: 32px;
+}
+
+.services {
+   
+    
+        --grad: white, rgb(0, 225, 255) ;
+    padding: 2.5rem;
+    gap: 1.5rem;
+    display: grid;
+    grid-template: 'title icon' 'content content' 'bar bar' / 1fr auto;
+    font-family: system-ui, sans-serif;
+    color: white;
+    box-shadow:
+       
+        -20px 20px 40px hsl(0 0 0 / .25);
+
+    .titleser {
+        font-size: 1.5rem;
+        grid-area: title;
+        align-self: end;
+        text-transform: uppercase;
+        font-weight: 500;
+        word-break: break-all;
+
+    }
+
+    .iconser {
+        grid-area: icon;
+        font-size: 3rem;
+
+        >i {
+            color: transparent;
+            background: linear-gradient(to right, var(--grad));
+            background-clip: text;
+        }
+    }
+
+    .contentser {
+        grid-area: content;
+
+        &>*:first-child {
+            margin-top: 0rem
+        }
+
+        &>*:last-child {
+            margin-bottom: 0rem
+        }
+    }
+
+    &::after {
+        content: "";
+        grid-area: bar;
+        height: 2px;
+        background-image: linear-gradient(90deg, var(--grad));
+        /*     margin-inline: -1.5rem; */
+    }
+}
