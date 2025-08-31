@@ -125,7 +125,7 @@ Grâce à mes compétences en HTML, CSS, JavaScript, React, Wordpress , je const
 
 Je travaille toujours en transparence, avec une vraie écoute du besoin, des livrables propres, et le souci de respecter les délais.
 
-Si vous cherchez quelqu’un de fiable, réactif, et impliqué, je serais ravi d’échanger pour voir comment je peux vous aider.</p>
+</p>
            
            </div>
           </div>
